@@ -12,6 +12,8 @@ html{
    margin: 0;
    padding: 0;
    background-color: beige;
+   display: flex;
+   justify-content: center;
 }
 .indents{
     margin: 45px 45px 0 45px;
@@ -83,19 +85,30 @@ html{
     margin-left: 45px;
 }
 .info__right__smile{
+    display: flex;
+    justify-content: space-between;
     background-color: aquamarine;
     width: 350px;
     height: 100px;
     border-radius: 20px;
     padding: 10px;
 }
+.info__right__smile img{
+    width: 50px;
+}
 .info__right__water{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: aquamarine;
     width: 350px;
     height: 100px;
     border-radius: 20px;
     padding: 10px;
     margin-top: 45px;
+}
+.info__right__water img{
+    width: 30px;
 }
 .info__right__impotant{
     background-color: aquamarine;
